@@ -7,12 +7,18 @@
     <link rel="stylesheet" href="public/assets/css/style.css">
 </head>
 <body>
-    <div class="first">
-        <h4>THE FIASCO</h4>
-        <?php include __DIR__ ."/nav.html.php" ?>
-    </div>
-    <div class="two">
-    <h4>Welcome</h4>
-    <h1>THE FIASCO</h1>
-    <h5>MEDITERRANEAN SPECIALITES</h5>
-    </div>
+    
+    <div class="container">
+        <header>
+            <div class="opacite">
+                <div>
+                    <h4>the fiasco</h4>
+                    <?php include __DIR__ . "/nav.html.php"; ?>
+                </div>
+                <div>
+                    <h2>welcome</h2>
+                    <h1>the fiasco</h1>
+                    <p>Mediterranean Specialities</p>
+                </div>
+            </div>
+        </header>

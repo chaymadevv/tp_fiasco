@@ -1,9 +1,44 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  color: white;
+  font-family: sans-serif;
 }
 
-ul,li,a{
-    list-style-type: none;
-    text-decoration: none;
+img {
+  width: 100%;
+  display: block;
 }
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-family: "dancing-bold", cursive;
+  color: #dba521;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+h4 {
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+body {
+  background-color: #1f1f1f;
+}
+
+/* Le selecteur ".container" est le représentant del'attribut class dans une balise html  */
+
+.container {
+  /* largeur par défaut */
+  width: 1440px;
+  /*pour centrer la page dans le navigateurs*/
+  margin: 0 auto;
+  background-color
